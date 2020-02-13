@@ -66,6 +66,15 @@
                 }
               ]
             },
+            "it": {
+              "tsConfig": "tsconfig.it.json"
+            },
+            "at": {
+              "tsConfig": "tsconfig.at.json"
+            },
+            "de": {
+              "tsConfig": "tsconfig.de.json"
+            },
             "ci": {
               "progress": false
             }
@@ -79,6 +88,15 @@
           "configurations": {
             "production": {
               "browserTarget": "app:build:production"
+            },
+            "it": {
+              "browserTarget": "app:build:it"
+            },
+            "at": {
+              "browserTarget": "app:build:at"
+            },
+            "de": {
+              "browserTarget": "app:build:de"
             },
             "ci": {
               "progress": false
